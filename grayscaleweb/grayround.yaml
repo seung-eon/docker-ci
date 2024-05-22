@@ -18,7 +18,7 @@ spec:
         app: grayround
     spec:
       containers:
-      - image: seonxx/grayround:v2.0
+      - image: docker.io/seonxx/grayround:v2.0
         name: grayround
         ports:
         - containerPort: 80
